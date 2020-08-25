@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 public class Song {
     private String title;
@@ -38,13 +37,15 @@ public class Song {
         this.lyrics = lyrics;
     }
 
-    public static void parseLyrics(String lyricsString){
+    public static List parseLyrics(String lyricsString){
         String[] lyricsSplit = lyricsString.split(" ");
         List<String> lyricsList = new ArrayList<String>();
         lyricsList = Arrays.asList(lyricsSplit);
+        System.out.println("\nHere is a list of all the lyrics to your song:");
         for (String word : lyricsList) {
             System.out.println(word);
         }
+        return lyricsList;
     }
 
     public static void main(String[] args) {
