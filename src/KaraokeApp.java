@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class KaraokeApp {
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
 //
 //        Scanner scanner = new Scanner(System.in);
 //        String userChoice = null;
@@ -11,11 +11,11 @@ public class KaraokeApp {
 //        Player musicPlayer = new MusicPlayer("victoria"); // can change the voice
 //        Player lyricsPlayer = new LyricsPlayer("blue"); // can change the color
 //
-//        Album a = new Album("90s Hits", Arrays.asList(
-//           new Song("Every Day is a Winding Road", "Sheryl Crow", Song.parseLyrics("Everyday is a winding road ... I get a little bit closer to feeling fine")),
-//           new Song("Ready to Go", "Republica", Song.parseLyrics("I'm standing on the rooftops shouting out, Baby, I'm ready to go")),
-//           new Song("Airbag", "Radiohead", Song.parseLyrics("In an interstellar burst I am back to save the universe"))
-//        ));
+        Album a = new Album("90s Hits", Arrays.asList(
+           new Song("Every Day is a Winding Road", "Sheryl Crow", Song.parseLyrics("Everyday is a winding road ... I get a little bit closer to feeling fine")),
+           new Song("Ready to Go", "Republica", Song.parseLyrics("I'm standing on the rooftops shouting out, Baby, I'm ready to go")),
+           new Song("Airbag", "Radiohead", Song.parseLyrics("In an interstellar burst I am back to save the universe"))
+        ));
 //
 //        runKaraokeMachine(scanner, userChoice, musicPlayer, lyricsPlayer, a);
 //
@@ -38,6 +38,6 @@ public class KaraokeApp {
 //        } else {
 //            musicPlayer.play(a);
 //        }
-//    }
+    }
 
 }
