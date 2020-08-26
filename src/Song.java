@@ -37,7 +37,7 @@ public class Song {
         this.lyrics = lyrics;
     }
 
-    public static List parseLyrics(String lyricsString){
+    public static List parseLyrics(String lyricsString) {
         String[] lyricsSplit = lyricsString.split(" ");
         List<String> lyricsList = new ArrayList<String>();
         lyricsList = Arrays.asList(lyricsSplit);
@@ -47,11 +47,8 @@ public class Song {
         }
         return lyricsList;
     }
-
-    public static void main(String[] args) {
-        parseLyrics("this is a test");
-    }
 }
+
 
 
 
